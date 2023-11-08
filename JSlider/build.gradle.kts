@@ -19,8 +19,7 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
         }
     }
@@ -37,6 +36,7 @@ dependencies {
     implementation("androidx.viewpager:viewpager:1.0.0@aar")
 }
 
+
 publishing {
     publications {
         register<MavenPublication>("release") {
@@ -50,3 +50,4 @@ publishing {
         }
     }
 }
+
