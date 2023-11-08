@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <com.jummania.jslider.JSlider
+        app:slidingDuration="1555"
+        app:indicatorSize="15dp"
+        app:sliderPaddingLeft="0dp"
+        app:sliderPaddingRight="0dp"
+        app:sliderPaddingTop="0dp"
+        app:sliderPaddingBottom="0dp"
+        app:indicatorPaddingBottom="27.5dp"
+        app:enableIndicator="true"
+        app:enableAutoSliding="true"
+        app:selectedIndicatorColor="@color/white"
+        app:defaultIndicatorColor="#90ffffff"
+
+        android:id="@+id/jSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
