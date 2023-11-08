@@ -42,7 +42,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.Jumman04"
             artifactId = "JSlider"
-            version = "1.2"
+            version = "1.3"
 
             afterEvaluate {
                 from(components["release"])
